@@ -1,0 +1,9 @@
+DELIMITER //
+CREATE FUNCTION cuadrado(x INTEGER)
+RETURNS INTEGER
+BEGIN
+	DECLARE resultado INTEGER;
+    SET resultado = x * x;
+    RETURN resultado;
+END //
+DELIMITER ;

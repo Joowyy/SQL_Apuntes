@@ -1,0 +1,1 @@
+SELECT nombre, departamento FROM empleados;

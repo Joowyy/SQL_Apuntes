@@ -1,0 +1,1 @@
+SELECT sum(cantidad) AS totalPedidos FROM Pedidos;

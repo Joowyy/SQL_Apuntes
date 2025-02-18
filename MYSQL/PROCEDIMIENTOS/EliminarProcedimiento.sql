@@ -1,0 +1,1 @@
+DROP PROCEDURE IF EXISTS cliente_sin_pedidos;
