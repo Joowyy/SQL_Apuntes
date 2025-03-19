@@ -17,7 +17,6 @@ BEGIN
     WHILE i <= SQRT(numero) DO
         IF numero % i = 0 THEN
             SET esPrimo = FALSE;
-			LEAVE WHILE;
         END IF;
         SET i = i + 1;
     END WHILE;
